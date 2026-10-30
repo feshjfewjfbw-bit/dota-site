@@ -1,0 +1,191 @@
+/* Dota 2 Heroes Website */
+:root {
+  --primary: #8bc0a5;
+  --secondary: #4a6b5a;
+  --accent: #d9e9df;
+  --text: #3e5a4e;
+  --text-light: #6e8478;
+  --bg: #f5faf6;
+  --bg-card: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.section-description {
+  text-align: center;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+}
+
+/* Hero Grid */
+.hero-grid {
+  display: grid;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+/* Mobile-first: 1 column, then 2+ columns */
+@media (min-width: 480px) {
+  .hero-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Card */
+.hero-card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+/* Card Image */
+.hero-image {
+  width: 100%;
+  height: 250px;
+  background: #e3ece8;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.hero-card:hover .hero-image img {
+  transform: scale(1.05);
+}
+
+/* Card Content */
+.hero-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.hero-role {
+  display: inline-block;
+  padding: 4px 8px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.hero-attr {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-attr span {
+  display: block;
+  margin: 4px 0;
+}
+
+.hero-attr .primary {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* Card Footer */
+.hero-footer {
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-id {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.hero-details {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/* Loading / Empty state */
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-light);
+}
+
+/* Focus states */
+.hero-card:focus {
+  outline: 3 solid var(--primary);
+  outline-offset: 4px;
+}

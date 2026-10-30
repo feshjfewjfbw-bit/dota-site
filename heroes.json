@@ -1,0 +1,214 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Anti-Mage",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/anti-mage.png"
+    },
+    {
+      "id": 2,
+      "name": "Axe",
+      "primary_attribute": "agi",
+      "role": "Offlane",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/axe.png"
+    },
+    {
+      "id": 3,
+      "name": "Bane",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/bane.png"
+    },
+    {
+      "id": 4,
+      "name": "Bloodseeker",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/bloodseeker.png"
+    },
+    {
+      "id": 5,
+      "name": "Crystal Maiden",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/crystal-maiden.png"
+    },
+    {
+      "id": 6,
+      "name": "Drow Ranger",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/drow-ranger.png"
+    },
+    {
+      "id": 7,
+      "name": "Earthshaker",
+      "primary_attribute": "str",
+      "role": "Offlane",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/earthshaker.png"
+    },
+    {
+      "id": 8,
+      "name": "Juggernaut",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/juggernaut.png"
+    },
+    {
+      "id": 9,
+      "name": "Lion",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/lion.png"
+    },
+    {
+      "id": 10,
+      "name": "Lich",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/lich.png"
+    },
+    {
+      "id": 11,
+      "name": "Lifestealer",
+      "primary_attribute": "str",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/lifestealer.png"
+    },
+    {
+      "id": 12,
+      "name": "Puck",
+      "primary_attribute": "int",
+      "role": "Mid",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/puck.png"
+    },
+    {
+      "id": 13,
+      "name": "Pudge",
+      "primary_attribute": "str",
+      "role": "Offlane",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/pudge.png"
+    },
+    {
+      "id": 14,
+      "name": "Razor",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/razor.png"
+    },
+    {
+      "id": 15,
+      "name": "Shadow Fiend",
+      "primary_attribute": "int",
+      "role": "Mid",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/shadow-fiend.png"
+    },
+    {
+      "id": 16,
+      "name": "Silencer",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/silencer.png"
+    },
+    {
+      "id": 17,
+      "name": "Storm Spirit",
+      "primary_attribute": "int",
+      "role": "Mid",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/storm-spirit.png"
+    },
+    {
+      "id": 18,
+      "name": "Sven",
+      "primary_attribute": "str",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/sven.png"
+    },
+    {
+      "id": 19,
+      "name": "Shadow Demon",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/shadow-demon.png"
+    },
+    {
+      "id": 20,
+      "name": "Terrorblade",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/terrorblade.png"
+    },
+    {
+      "id": 21,
+      "name": "Windranger",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/windranger.png"
+    },
+    {
+      "id": 22,
+      "name": "Phoenix",
+      "primary_attribute": "str",
+      "role": "Offlane",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/phoenix.png"
+    },
+    {
+      "id": 23,
+      "name": "Pugna",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/pugna.png"
+    },
+    {
+      "id": 24,
+      "name": "Tiny",
+      "primary_attribute": "str",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/tiny.png"
+    },
+    {
+      "id": 25,
+      "name": "Vengeful Spirit",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/vengeful-spirit.png"
+    },
+    {
+      "id": 26,
+      "name": "Witch Doctor",
+      "primary_attribute": "int",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/witch-doctor.png"
+    },
+    {
+      "id": 27,
+      "name": "Zeus",
+      "primary_attribute": "int",
+      "role": "Mid",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/zeus.png"
+    },
+    {
+      "id": 28,
+      "name": "Kunkka",
+      "primary_attribute": "str",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/kunkka.png"
+    },
+    {
+      "id": 29,
+      "name": "Luna",
+      "primary_attribute": "agi",
+      "role": "Carry",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/luna.png"
+    },
+    {
+      "id": 30,
+      "name": "Mirana",
+      "primary_attribute": "agi",
+      "role": "Support",
+      "image_url": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/mirana.png"
+    }
+  ]
+}

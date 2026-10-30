@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dota 2 Heroes Reference — справочник по героям Dota 2">
+  <title>Dota 2 Heroes Reference</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">Герои Dota 2</h1>
+      <p class="section-description">Полный справочник по героям Dota 2 с описанием ролей, способностей и изображением</p>
+    </div>
+  </section>
+
+  <section class="heroes">
+    <div class="container">
+      <div class="hero-grid" id="hero-grid">
+        <!-- Heroes will be rendered by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg);">
+    <div class="container">
+      <div class="empty-state" id="empty-state" style="display:none;">
+        Загрузка героев...
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Загрузка героев из JSON
+    fetch('heroes.json')
+      .then(response => response.json())
+      .then(data => {
+        const grid = document.getElementById('hero-grid');
+        const emptyState = document.getElementById('empty-state');
+        
+        if (!data.heroes || data.heroes.length === 0) {
+          emptyState.style.display = 'block';
+          grid.style.display = 'none';
+          return;
+        }
+        
+        emptyState.style.display = 'none';
+        grid.style.display = 'grid';
+        
+        data.heroes.forEach(hero => {
+          const card = document.createElement('div');
+          card.className = 'hero-card';
+          card.innerHTML = `
+            <div class="hero-image">
+              <img src="${hero.image_url}" alt="${hero.name}" loading="lazy" onerror="this.onerror=null; this.style.display='none'; this.parentElement.nextElementSibling.style.display='block';">
+              <div class="hero-image__fallback" style="display:none;">${hero.name.charAt(0).toUpperCase() + hero.name.slice(1)}</div>
+            </div>
+            <div class="hero-content">
+              <h3 class="hero-name">${hero.name}</h3>
+              <span class="hero-role">${hero.role}</span>
+              <p class="hero-attr"><span class="primary">${hero.primary_attribute.toUpperCase()}</span> атрибут</p>
+              <div class="hero-footer">
+                <span class="hero-id">ID: ${hero.id}</span>
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      })
+      .catch(error => {
+        console.error('Error loading heroes:', error);
+        const grid = document.getElementById('hero-grid');
+        const emptyState = document.getElementById('empty-state');
+        emptyState.innerHTML = 'Ошибка загрузки героев';
+        emptyState.style.display = 'block';
+        grid.style.display = 'none';
+      });
+  </script>
+</body>
+</html>
