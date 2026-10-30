@@ -1,12 +1,12 @@
 /* Dota 2 Heroes Website */
 :root {
   --primary: #8bc0a5;
-  --secondary: #4a6b5a;
-  --accent: #d9e9df;
-  --text: #3e5a4e;
-  --text-light: #6e8478;
-  --bg: #f5faf6;
-  --bg-card: #ffffff;
+  --secondary: #9fd3b8;
+  --accent: #e8f3ed;
+  --text: #e0e0e0;
+  --text-light: #b0b0b0;
+  --bg: #121212;
+  --bg-card: #2a2a2a;
 }
 
 * {
@@ -95,7 +95,7 @@ body {
 .hero-image {
   width: 100%;
   height: 250px;
-  background: #e3ece8;
+  background: #1b1b1b;
   position: relative;
   overflow: hidden;
 }
@@ -171,7 +171,7 @@ body {
 /* Card Footer */
 .hero-footer {
   padding-top: 16px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #444;
   margin-top: auto;
   display: flex;
   justify-content: space-between;
