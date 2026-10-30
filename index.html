@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -78,5 +79,18 @@
         grid.style.display = 'none';
       });
   </script>
+
+<!-- Hero modal -->
+<div id="hero-modal" class="hero-modal" style="display:none;">
+  <div class="modal-content">
+    <button class="modal-close" id="modal-close" aria-label="Закрыть модальное окно">&times;</button>
+    <div class="modal-hero-image" id="modal-hero-image"></div>
+    <div class="modal-hero-info">
+      <h2 class="modal-hero-name" id="modal-hero-name"></h2>
+      <p class="modal-hero-role" id="modal-hero-role"></p>
+    </div>
+    <div class="modal-abilities-grid" id="modal-abilities-grid"></div>
+  </div>
+</div>
 </body>
 </html>
