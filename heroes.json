@@ -5,12 +5,28 @@
       "name": "Anti-Mage",
       "primary_attribute": "agi",
       "role": "Carry",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/anti-mage.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png",
       "abilities": [
-        {"name": "Mana Break", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Blink", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Mana Void", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Counterspell", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Mana Break",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_break.png",
+          "description": "Burns an opponent's mana on each attack and deals damage equal to a percentage of the mana burnt."
+        },
+        {
+          "name": "Blink",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_blink.png",
+          "description": "Short distance teleportation that allows Anti-Mage to move in and out of combat."
+        },
+        {
+          "name": "Counterspell",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_counterspell.png",
+          "description": "Passively grants magic resistance. Counterspell may be activated to create an anti-magic shell around Anti-Mage that blocks and reflects any targeted spells."
+        },
+        {
+          "name": "Mana Void",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/antimage_mana_void.png",
+          "description": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned."
+        }
       ]
     },
     {
@@ -20,10 +36,26 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png",
       "abilities": [
-        {"name": "Berserker's Call", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Battle Hunger", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Counter Helix", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Rot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Berserker's Call",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/axe_berserkers_call.png",
+          "description": "Axe taunts nearby enemy units, forcing them to attack him while he gains bonus armor during the duration."
+        },
+        {
+          "name": "Battle Hunger",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/axe_battle_hunger.png",
+          "description": "Enrages an enemy unit, causing it to take damage over time until it kills another unit or the duration ends. The enemy is slowed as long as they are facing away from Axe."
+        },
+        {
+          "name": "Counter Helix",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/axe_counter_helix.png",
+          "description": "After a set number of attacks, Axe will perform a helix counter attack, dealing pure damage to all nearby enemies."
+        },
+        {
+          "name": "Culling Blade",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/axe_culling_blade.png",
+          "description": "Axe spots a weakness and strikes, dealing pure damage. When an enemy hero is killed with Culling Blade, its cooldown is reset, and all nearby allied units gain bonus movement speed and armor.  Axe permanently drenches his blade every time he kills an enemy Hero with Culling Blade, gaining bonus armor for each stack."
+        }
       ]
     },
     {
@@ -33,10 +65,26 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bane.png",
       "abilities": [
-        {"name": "Brain Sap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Nightmare", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Fiend's Grip", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Enfeeble", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Enfeeble",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_enfeeble.png",
+          "description": "Deals damage every second and lowers the enemy's total attack damage and cast range."
+        },
+        {
+          "name": "Brain Sap",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_brain_sap.png",
+          "description": "Feasts on the vital energies of an enemy unit, healing Bane and dealing damage."
+        },
+        {
+          "name": "Nightmare",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_nightmare.png",
+          "description": "Puts the target enemy or friendly Hero to sleep. Sleeping units walk in Bane's chosen direction and are awakened when damaged. If the target was directly attacked, the Nightmare passes to the attacking unit. Bane can attack and damage Nightmared targets freely.   Can be put on alt-cast to have the target stand still."
+        },
+        {
+          "name": "Fiend's Grip",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bane_fiends_grip.png",
+          "description": "CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every 0.5 seconds based on the unit's maximum mana."
+        }
       ]
     },
     {
@@ -46,10 +94,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bloodseeker.png",
       "abilities": [
-        {"name": "Blood Rite", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Rupture", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Thirst", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Blood Bomb", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Blood Mist",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bloodseeker_blood_mist.png",
+          "description": "Bloodseeker sprays his blood continuously in the area around him, losing health to damage and slow his enemies. While active, Sanguivore's healing is increased. Cannot be turned off while on cooldown.   Additionally, passively turns all your overheal from your own abilities into an all damage barrier up to 50% of Bloodseeker's Max Health. Barrier amount decays by 0.5% per second."
+        },
+        {
+          "name": "Blood Rite",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bloodseeker_blood_bath.png",
+          "description": "Bloodseeker baptizes an area in sacred blood. After 2.9 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced."
+        },
+        {
+          "name": "Thirst",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bloodseeker_thirst.png",
+          "description": "Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed when an enemy hero's health falls below 100%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero. Unlocks max movement speed for Bloodseeker."
+        },
+        {
+          "name": "Rupture",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/bloodseeker_rupture.png",
+          "description": "Causes an enemy unit's skin to rupture, dealing initial damage based on its current health. If the unit moves, it takes damage based on the distance moved."
+        }
       ]
     },
     {
@@ -57,12 +121,28 @@
       "name": "Crystal Maiden",
       "primary_attribute": "int",
       "role": "Support",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal-maiden.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal_maiden.png",
       "abilities": [
-        {"name": "Crystal Nova", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Frostbite", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Arcane Aura", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Freezing Field", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Crystal Nova",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/crystal_maiden_crystal_nova.png",
+          "description": "A burst of damaging frost slows enemy movement in the targeted area."
+        },
+        {
+          "name": "Frostbite",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/crystal_maiden_frostbite.png",
+          "description": "Encases an enemy unit in ice, prohibiting movement and attack, while dealing damage over time. Deals 4x damage to non-ancient creeps."
+        },
+        {
+          "name": "Arcane Aura",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/crystal_maiden_brilliance_aura.png",
+          "description": "Gives mana regeneration to all friendly units on the map. Allies within a 1200 radius of Crystal Maiden receive more mana regeneration.  Crystal Maiden passively gains mana regen amplification."
+        },
+        {
+          "name": "Freezing Field",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/crystal_maiden_freezing_field.png",
+          "description": "CHANNELED - Surrounds Crystal Maiden with 100 random icy explosions that slow enemies and deal massive damage. Lasts 10 seconds."
+        }
       ]
     },
     {
@@ -70,12 +150,28 @@
       "name": "Drow Ranger",
       "primary_attribute": "agi",
       "role": "Carry",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/drow-ranger.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/drow_ranger.png",
       "abilities": [
-        {"name": "Marksmanship", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Gust", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Frost Arrows", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Maim", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Frost Arrows",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/drow_ranger_frost_arrows.png",
+          "description": "Adds a freezing effect to Drow's attacks, slowing enemy movement and dealing bonus damage. Slow lasts 1.5 seconds."
+        },
+        {
+          "name": "Gust",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/drow_ranger_wave_of_silence.png",
+          "description": "Releases a wave that silences and knocks back and reveals invisible enemy units. Knockback distance is relative to how close they are to Drow."
+        },
+        {
+          "name": "Multishot",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/drow_ranger_multishot.png",
+          "description": "CHANNELED - Drow releases a flurry of arrows in continuous salvos, hitting enemies for extra damage and applying Frost Arrows with a range of Drow's Attack Range + 475. Lasts up to 1.75 seconds.  Drow can move slowly and use items while casting Multishot."
+        },
+        {
+          "name": "Marksmanship",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/drow_ranger_marksmanship.png",
+          "description": "Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their base armor. This ability is disabled if there is an enemy hero within 300 range."
+        }
       ]
     },
     {
@@ -85,10 +181,26 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png",
       "abilities": [
-        {"name": "Fissure", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Aftershock", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Enchant Totem", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Echo Slam", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Fissure",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/earthshaker_fissure.png",
+          "description": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line."
+        },
+        {
+          "name": "Aftershock",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/earthshaker_aftershock.png",
+          "description": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities."
+        },
+        {
+          "name": "Enchant Totem",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/earthshaker_enchant_totem.png",
+          "description": "Empowers Earthshaker's totem, causing it to deal extra damage and have 100 bonus attack range on the next attack."
+        },
+        {
+          "name": "Echo Slam",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/earthshaker_echo_slam.png",
+          "description": "Shockwaves travel through the ground, damaging enemy units. Each enemy hit causes an echo to damage nearby units. Real heroes cause two echoes."
+        }
       ]
     },
     {
@@ -98,10 +210,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png",
       "abilities": [
-        {"name": "Blade Fury", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Healing Ward", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Omnislash", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Blade Dance", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Blade Fury",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/juggernaut_blade_fury.png",
+          "description": "Causes a bladestorm of destructive force around Juggernaut, rendering him debuff immune with 80% magic resistance and dealing damage every 0.2s to nearby enemy units. Applies a strong dispel at the end of the spin."
+        },
+        {
+          "name": "Healing Ward",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/juggernaut_healing_ward.png",
+          "description": "Summons a Healing Ward which heals all nearby allied units, based on their max health. The Healing Ward moves at 325 movement speed after being summoned. Lasts 18 seconds."
+        },
+        {
+          "name": "Blade Dance",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/juggernaut_blade_dance.png",
+          "description": "Gives Juggernaut a chance to deal critical damage with Blade Fury and on each attack."
+        },
+        {
+          "name": "Omnislash",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/juggernaut_omni_slash.png",
+          "description": "Juggernaut leaps towards the target enemy units, and then slashes the target and other nearby enemy units at an increased attack rate. Juggernaut is invulnerable for the duration.  DISPEL TYPE: Basic Dispel"
+        }
       ]
     },
     {
@@ -111,10 +239,26 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png",
       "abilities": [
-        {"name": "Hex", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Earth Spike", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Finger of Death", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Mana Drain", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Earth Spike",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lion_impale.png",
+          "description": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall."
+        },
+        {
+          "name": "Hex",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lion_voodoo.png",
+          "description": "Transforms an enemy unit into a harmless beast, with all special abilities disabled."
+        },
+        {
+          "name": "Mana Drain",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lion_mana_drain.png",
+          "description": "CHANNELED - Channels magical energy, taking mana and slowing enemies over time. If the enemy has no mana remaining, the slow is increased by 15%.    Can target allies to give them mana and movement speed at a 50% rate."
+        },
+        {
+          "name": "Finger of Death",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lion_finger_of_death.png",
+          "description": "Rips at an enemy unit, trying to turn it inside-out, dealing massive damage to the target.  After using Finger of Death, Lion's hand becomes empowered, allowing him to use a cleaving melee attack with 250 range with bonus movement speed.  Finger of Death gains permanent bonus damage for it and the fist for each enemy Hero it or the fist kills.   The melee attack may be disabled by setting the ability to Alt Cast."
+        }
       ]
     },
     {
@@ -124,10 +268,26 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lich.png",
       "abilities": [
-        {"name": "Frost Armor", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Chain Frost", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Sacrifice", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Death Pulse", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Frost Blast",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lich_frost_nova.png",
+          "description": "Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack rates for 4 seconds. The primary target receives both base and area damage."
+        },
+        {
+          "name": "Frost Shield",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lich_frost_shield.png",
+          "description": "Applies a magical frost shield around the target, reducing damage from attacks against it. While the shield is active, ice magic will affect nearby enemy units every 1 seconds, dealing minor damage and slowing them."
+        },
+        {
+          "name": "Sinister Gaze",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lich_sinister_gaze.png",
+          "description": "CHANNELED - Hypnotizes an enemy unit, causing it to move towards a point between the two of you and drains a percentage of its current mana."
+        },
+        {
+          "name": "Chain Frost",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/lich_chain_frost.png",
+          "description": "Releases an orb of frost that bounces between nearby enemy units up to 10 times, slowing and damaging each time it hits. Each bounce increases the damage for the subsequent bounces. Chain Frost lingers on its last target if it fails to bounce and can bounce again if new targets become available."
+        }
       ]
     },
     {
@@ -135,12 +295,28 @@
       "name": "Lifestealer",
       "primary_attribute": "str",
       "role": "Carry",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lifestealer.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/life_stealer.png",
       "abilities": [
-        {"name": "Infest", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Rage", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Feast", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Open Wounds", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Rage",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/life_stealer_rage.png",
+          "description": "Launch into a maddened rage, becoming Debuff Immune, increasing magic resistance and gaining movement speed.  DISPEL TYPE: Basic Dispel"
+        },
+        {
+          "name": "Open Wounds",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/life_stealer_open_wounds.png",
+          "description": "Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. The victim recovers movement speed over the duration."
+        },
+        {
+          "name": "Feast",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/life_stealer_feast.png",
+          "description": "Lifestealer's attacks deal damage and provide heal for a percentage of his target's max health. He gains permanent max HP whenever he kills a unit."
+        },
+        {
+          "name": "Infest",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/life_stealer_infest.png",
+          "description": "Lifestealer infests the body of a target unit, becoming undetectable, and healing for a portion of his max hitpoints every second while inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack, and the creep loses a portion of their max hitpoints over time. Does not work on enemy heroes.  DISPEL TYPE: Basic Dispel"
+        }
       ]
     },
     {
@@ -150,10 +326,26 @@
       "role": "Mid",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png",
       "abilities": [
-        {"name": "Waning Rift", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Illusory Orb", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Phase Shift", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Dream Coil", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Illusory Orb",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/puck_illusory_orb.png",
+          "description": "Vector Targeted. Puck launches a magic orb that travels along the path, damaging enemy units along the way. The orb deals an additional 3% of its impact damage every 0.5s in its area of effect, but if it exceeds the max cast range it will be destroyed.   At any point, Puck may teleport to the orb's location using Ethereal Jaunt.   Can be put on alt-cast to launch the Orb straight ahead."
+        },
+        {
+          "name": "Waning Rift",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/puck_waning_rift.png",
+          "description": "Puck teleports to the target location and releases a burst of faerie dust that deals damage and silences enemy units nearby."
+        },
+        {
+          "name": "Phase Shift",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/puck_phase_shift.png",
+          "description": "CHANNELED - Puck briefly shifts into another dimension where it is immune from harm."
+        },
+        {
+          "name": "Dream Coil",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/puck_dream_coil.png",
+          "description": "Creates a coil of volatile magic that latches onto enemy Heroes, damaging and leashing them. If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage."
+        }
       ]
     },
     {
@@ -163,10 +355,26 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png",
       "abilities": [
-        {"name": "Meat Hook", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Dismember", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Rot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Flesh Heap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Meat Hook",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pudge_meat_hook.png",
+          "description": "Launches a bloody hook toward a unit or location. The hook will snag the first unit it encounters, dragging the unit back to Pudge, killing it if it's a non-ancient creep and dealing damage if it is an enemy otherwise."
+        },
+        {
+          "name": "Rot",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pudge_rot.png",
+          "description": "A toxic cloud that deals intense damage and slows movement--harming not only enemy units but Pudge himself."
+        },
+        {
+          "name": "Meat Shield",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pudge_flesh_heap.png",
+          "description": "Pudge covers himself with a layer of flesh that blocks damage of any type taken from any source."
+        },
+        {
+          "name": "Dismember",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pudge_dismember.png",
+          "description": "CHANNELED - Pudge chows down on an enemy unit, disabling it and dealing damage over time. Damage is increased by Pudge's Strength and heals him for the total amount. Pudge pulls the unit at a rate of 75 units, up to a minimum of 125 range."
+        }
       ]
     },
     {
@@ -176,10 +384,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/razor.png",
       "abilities": [
-        {"name": "Static Link", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Plasma Field", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Eye of the Storm", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Unstable Current", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Plasma Field",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/razor_plasma_field.png",
+          "description": "Releases a wave of energetic plasma that grows in power as it expands, but also zaps on contraction, slowing and dealing damage to enemy units caught in its path. Damage and slow increases with distance from Razor. The Plasma Field hits each unit twice, once each direction."
+        },
+        {
+          "name": "Static Link",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/razor_static_link.png",
+          "description": "Creates a charged link between Razor and an enemy Hero, stealing damage from the target and giving it to Razor. Allows Razor to attack while moving with the link active."
+        },
+        {
+          "name": "Unstable Current",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/razor_unstable_current.png",
+          "description": "Описание отсутствует"
+        },
+        {
+          "name": "Eye of the Storm",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/razor_eye_of_the_storm.png",
+          "description": "A powerful lightning storm strikes out at the enemy unit with the lowest health, dealing damage and reducing armor."
+        }
       ]
     },
     {
@@ -187,12 +411,28 @@
       "name": "Shadow Fiend",
       "primary_attribute": "int",
       "role": "Mid",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow-fiend.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nevermore.png",
       "abilities": [
-        {"name": "Presence of the Destroyer", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Shadowraze", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Requiem of the Damned", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Eul's Scepter of Divinity", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Shadowraze",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/nevermore_shadowraze1.png",
+          "description": "Shadow Fiend razes the ground directly in front of him, dealing damage to enemy units in the area, dealing bonus damage based on his current Necromastery Soul amount. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadowraze damage per stack."
+        },
+        {
+          "name": "Necromastery",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/nevermore_necromastery.png",
+          "description": "Shadow Fiend steals the soul from units he kills, gaining 1 bonus damage per soul. Hero kills grant 4 souls. On death, he releases 30% of them from bondage."
+        },
+        {
+          "name": "Presence of the Dark Lord",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/nevermore_dark_lord.png",
+          "description": "Shadow Fiend's presence reduces the armor of nearby enemies."
+        },
+        {
+          "name": "Requiem of Souls",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/nevermore_requiem.png",
+          "description": "Shadow Fiend gathers up to 20 of his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will be feared and have its movement speed and magic resistance reduced for 0.6 seconds for each line hit up to a maximum of 2.15. Lines of energy are created for every soul captured through Necromastery.    Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown."
+        }
       ]
     },
     {
@@ -202,10 +442,26 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png",
       "abilities": [
-        {"name": "Glaives of Wisdom", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Arcane Curse", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Last Word", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Global Silence", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Arcane Curse",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_curse_of_the_silent.png",
+          "description": "Curses the target area, dealing damage and causing enemies to take damage over time and slowing their movement speed.  Anytime affected enemies cast a spell, the duration is increased. The duration is paused as long as the target is silenced."
+        },
+        {
+          "name": "Glaives of Wisdom",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_glaives_of_wisdom.png",
+          "description": "Silencer enchants his glaives with his wisdom, stealing his target's Intelligence with each hit and dealing additional damage based on his Intelligence."
+        },
+        {
+          "name": "Last Word",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_last_word.png",
+          "description": "Enchants a target, providing vision of them and causing them to be damaged and silenced if they cast a spell or if the enchantment timer expires. Deals extra damage based on the difference in intelligence between Silencer and the target."
+        },
+        {
+          "name": "Global Silence",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/silencer_global_silence.png",
+          "description": "Silencer stops all sound, preventing enemy heroes and units on the map from casting spells."
+        }
       ]
     },
     {
@@ -213,12 +469,28 @@
       "name": "Storm Spirit",
       "primary_attribute": "int",
       "role": "Mid",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm-spirit.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png",
       "abilities": [
-        {"name": "Electric Vortex", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Ball Lightning", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Overload", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Dissipate", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Static Remnant",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/storm_spirit_static_remnant.png",
+          "description": "Creates an explosively charged image of Storm Spirit that walks to the target position and lasts for 12 seconds. Will detonate and deal damage if an enemy unit comes near it."
+        },
+        {
+          "name": "Electric Vortex",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/storm_spirit_electric_vortex.png",
+          "description": "A vortex that pulls an enemy unit to Storm Spirit's location."
+        },
+        {
+          "name": "Overload",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/storm_spirit_overload.png",
+          "description": "Casting a spell creates an electrical charge, which is released in a burst on Storm's next attack, dealing damage and slowing nearby enemies."
+        },
+        {
+          "name": "Ball Lightning",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/storm_spirit_ball_lightning.png",
+          "description": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is 25+7.5% of his total mana pool, and the cost per 100 units traveled is 10+0.65% of his total mana pool. Damage is expressed in damage per 100 units traveled."
+        }
       ]
     },
     {
@@ -228,10 +500,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png",
       "abilities": [
-        {"name": "Great Cleave", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "God Strength", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Storm Hammer", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Fury Swipes", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Storm Hammer",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/sven_storm_bolt.png",
+          "description": "Sven unleashes his magical gauntlet that deals damage and stuns enemy units in a small area around the target."
+        },
+        {
+          "name": "Great Cleave",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/sven_great_cleave.png",
+          "description": "Sven strikes with great force, cleaving all nearby enemy units with his attack."
+        },
+        {
+          "name": "Warcry",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/sven_warcry.png",
+          "description": "Sven's Warcry heartens his allied heroes for battle, increasing their armor and movement speed. Lasts 8 seconds."
+        },
+        {
+          "name": "God's Strength",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/sven_gods_strength.png",
+          "description": "Sven channels his rogue strength, granting bonus damage and slow resistance for 30 seconds."
+        }
       ]
     },
     {
@@ -239,12 +527,28 @@
       "name": "Shadow Demon",
       "primary_attribute": "int",
       "role": "Support",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow-demon.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_demon.png",
       "abilities": [
-        {"name": "Disruption", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Soul Catcher", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Disjunction", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Mental Alacrity", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Disruption",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shadow_demon_disruption.png",
+          "description": "Banishes the targeted unit from the battlefield for a short duration. Upon returning, two illusions of the banished unit with bonus base damage are created under Shadow Demon's control."
+        },
+        {
+          "name": "Soul Catcher",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shadow_demon_shadow_servant.png",
+          "description": "Shadow Demon and his illusions' attacks reduce the current health of the target by 1% per stack. When the effect expires, the target regains 50% of the lost health.  If an enemy Hero dies under this effect, Shadow Demon creates an illusion of them that lasts until the Hero respawns or Shadow Demon dies."
+        },
+        {
+          "name": "Shadow Poison",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shadow_demon_shadow_poison.png",
+          "description": "Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8/16 times the stack damage based on the number of stacks on the target, up to 5 stacks. Additional stacks cause 60 damage each. This deferred damage is dealt when Shadow Poison's duration is expired, or the Release sub-ability is used."
+        },
+        {
+          "name": "Demonic Purge",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/shadow_demon_demonic_purge.png",
+          "description": "Purges the target enemy unit, removing positive buffs, and slowing the target for the duration. The unit slowly regains its speed until the end of the duration, upon which damage is dealt. Units under the effect of Disruption can still be affected by Demonic Purge.  DISPEL TYPE: Basic Dispel"
+        }
       ]
     },
     {
@@ -254,10 +558,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/terrorblade.png",
       "abilities": [
-        {"name": "Metamorphosis", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Conjure Image", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Sunder", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Metamorphosis", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Reflection",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/terrorblade_reflection.png",
+          "description": "Terrorblade brings forth an invulnerable dark reflection of all enemy heroes in a target area. Affected enemy heroes have movement and attack speeds slowed and attacked by their reflection."
+        },
+        {
+          "name": "Conjure Image",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/terrorblade_conjure_image.png",
+          "description": "Creates an illusion of Terrorblade that deals damage."
+        },
+        {
+          "name": "Metamorphosis",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/terrorblade_metamorphosis.png",
+          "description": "Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within 1200 range will also be transformed by Metamorphosis."
+        },
+        {
+          "name": "Sunder",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/terrorblade_sunder.png",
+          "description": "Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain."
+        }
       ]
     },
     {
@@ -265,12 +585,28 @@
       "name": "Windranger",
       "primary_attribute": "agi",
       "role": "Carry",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windranger.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windrunner.png",
       "abilities": [
-        {"name": "Shackles Shot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Powershot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Windrun", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Focus Fire", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Shackleshot",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/windrunner_shackleshot.png",
+          "description": "Shackles the target to an enemy unit or tree in a line directly behind it. If no unit or tree is present, the stun duration is reduced to 0.6."
+        },
+        {
+          "name": "Powershot",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/windrunner_powershot.png",
+          "description": "CHANNELED - Windranger charges her bow for up to 1 second for a single powerful shot, which deals more damage the longer it is charged. The arrow damages and slows enemies' movement speed along its path. For each enemy that Powershot hits, its damage and slow is reduced."
+        },
+        {
+          "name": "Windrun",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/windrunner_windrun.png",
+          "description": "Increases movement speed and adds evasion from all physical attacks."
+        },
+        {
+          "name": "Focus Fire",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/windrunner_focusfire.png",
+          "description": "Windranger channels the wind to gain 0 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage. Extra damage from secondary item effects is not reduced."
+        }
       ]
     },
     {
@@ -280,10 +616,26 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phoenix.png",
       "abilities": [
-        {"name": "Icarus Dive", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Sun Ray", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Supernova", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Fire Spirits", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Icarus Dive",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phoenix_icarus_dive.png",
+          "description": "Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends."
+        },
+        {
+          "name": "Fire Spirits",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phoenix_fire_spirits.png",
+          "description": "Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced."
+        },
+        {
+          "name": "Sun Ray",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phoenix_sun_ray.png",
+          "description": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their max health. The percentage increases as the beam continues to fire."
+        },
+        {
+          "name": "Supernova",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/phoenix_supernova.png",
+          "description": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.  DISPEL TYPE: Strong Dispel"
+        }
       ]
     },
     {
@@ -293,10 +645,26 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png",
       "abilities": [
-        {"name": "Nether Ward", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Life Drain", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Decrepify", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Telekinesis", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Nether Blast",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pugna_nether_blast.png",
+          "description": "An exploding pulse deals damage to enemies and structures in the area. Deals 65% damage to structures."
+        },
+        {
+          "name": "Decrepify",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pugna_decrepify.png",
+          "description": "A powerful banishing spell that slows a unit and renders it unable to attack or be attacked. Healing on affected allies is increased, while afflicted enemies take extra magic damage instead."
+        },
+        {
+          "name": "Nether Ward",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pugna_nether_ward.png",
+          "description": "Pugna places a Nether Ward at the target location. The ward will fire at any enemy hero who casts a spell dealing base damage plus the damage multiplier of the mana spent by the enemy hero."
+        },
+        {
+          "name": "Life Drain",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/pugna_life_drain.png",
+          "description": "CHANNELED - When cast on an enemy, Pugna drains health from the target enemy unit to heal himself and granting vision over the target.  When cast on an ally, Pugna will drain his own health into his ally."
+        }
       ]
     },
     {
@@ -306,10 +674,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png",
       "abilities": [
-        {"name": "Toss", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Grow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Tree Grab", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Tree Volley", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Avalanche",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_avalanche.png",
+          "description": "Bombards an area with rocks, continously doing small intervals of damage and stun to enemy units."
+        },
+        {
+          "name": "Toss",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_toss.png",
+          "description": "Grabs the nearest unit in a 300 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land."
+        },
+        {
+          "name": "Tree Grab",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_tree_grab.png",
+          "description": "Grabs a tree and causes Tiny to have bonus range, damage, and a splashing attack for a limited number of attacks. The tree can be thrown, to deal your attack to a unit at a distance."
+        },
+        {
+          "name": "Grow",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_grow.png",
+          "description": "Tiny gains craggy mass, increasing his attack damage, movement speed and armor, and toss power while slowing his attack speed."
+        }
       ]
     },
     {
@@ -317,12 +701,28 @@
       "name": "Vengeful Spirit",
       "primary_attribute": "agi",
       "role": "Carry",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengeful-spirit.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengefulspirit.png",
       "abilities": [
-        {"name": "Magic Missile", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Wave of Terror", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Nether Swap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Mystic Flare", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Magic Missile",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/vengefulspirit_magic_missile.png",
+          "description": "Fires a magic missile at an enemy unit, stunning and dealing damage."
+        },
+        {
+          "name": "Wave of Terror",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/vengefulspirit_wave_of_terror.png",
+          "description": "Vengeful Spirit lets loose a wicked cry, weakening the total attack damage and armor of enemies, and giving vision of the path ahead."
+        },
+        {
+          "name": "Vengeance Aura",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/vengefulspirit_command_aura.png",
+          "description": "Vengeful Spirit's presence increases the damage of nearby friendly heroes. Vengeful Spirit herself receives 25% extra bonus."
+        },
+        {
+          "name": "Nether Swap",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/vengefulspirit_nether_swap.png",
+          "description": "Instantaneously swaps positions with a target Hero, friend or enemy. Nether Swap interrupts channeling abilities on the target. Enemy Swapped units take damage. Vengeful Spirit and allied swapped units gain a barrier equal to the damage dealt."
+        }
       ]
     },
     {
@@ -330,12 +730,28 @@
       "name": "Witch Doctor",
       "primary_attribute": "int",
       "role": "Support",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/witch-doctor.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/witch_doctor.png",
       "abilities": [
-        {"name": "Voodoo Restoration", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Maledict", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Paralyzing Cask", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Death Ward", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Paralyzing Cask",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_paralyzing_cask.png",
+          "description": "Launches a cask of paralyzing powder that ricochets between enemy units, stunning and damaging those it hits. Damage increases each bounce."
+        },
+        {
+          "name": "Voodoo Restoration",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_voodoo_restoration.png",
+          "description": "Witch Doctor focuses his magic to heal nearby allied units, costing Witch Doctor mana every second Voodoo Restoration is active."
+        },
+        {
+          "name": "Maledict",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_maledict.png",
+          "description": "Curses all enemy Heroes and player-controlled targets in a small area, causing them to take a set amount of damage each second, as well as bursts of damage every 4 seconds based on how much health they have lost since the curse began."
+        },
+        {
+          "name": "Death Ward",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/witch_doctor_death_ward.png",
+          "description": "CHANNELED - Summons a deadly ward to attack enemy heroes within its attack range. Lasts a maximum of 8 seconds. Death Ward has 50% bonus accuracy."
+        }
       ]
     },
     {
@@ -343,12 +759,28 @@
       "name": "Zeus",
       "primary_attribute": "int",
       "role": "Mid",
-      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zeus.png",
+      "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zuus.png",
       "abilities": [
-        {"name": "Arc Lightning", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Thundergod's Wrath", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Nimbus", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Thunder Drop", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Arc Lightning",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_arc_lightning.png",
+          "description": "Hurls a bolt of lightning that leaps through nearby enemy units that deal damage."
+        },
+        {
+          "name": "Lightning Bolt",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_lightning_bolt.png",
+          "description": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 600 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range."
+        },
+        {
+          "name": "Heavenly Jump",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_heavenly_jump.png",
+          "description": "Zeus performs a Heavenly Jump, leaping forward and shocking the closest visible nearby enemy (prioritizing heroes), dealing damage as well as reducing their movement and attack speed. Zeus gets 900 unobstructed vision around him for 3 seconds."
+        },
+        {
+          "name": "Thundergod's Wrath",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/zuus_thundergods_wrath.png",
+          "description": "Strikes all enemy heroes with a bolt of lightning, dealing damage no matter where they may be. Provides True Sight around each hero before they are struck."
+        }
       ]
     },
     {
@@ -358,10 +790,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kunkka.png",
       "abilities": [
-        {"name": "Ghost Ship", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "X Marks the Spot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Torrent", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Tidebringer", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Torrent",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/kunkka_torrent.png",
+          "description": "Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed."
+        },
+        {
+          "name": "Tidebringer",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/kunkka_tidebringer.png",
+          "description": "Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike."
+        },
+        {
+          "name": "X Marks the Spot",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/kunkka_x_marks_the_spot.png",
+          "description": "Targets a friendly or enemy Hero, marks their position with an X, and returns them to it after several seconds. Kunkka can trigger the return at any time during the duration. Lasts twice as long on allied heroes."
+        },
+        {
+          "name": "Ghostship",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/kunkka_ghostship.png",
+          "description": "Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage.  Allied heroes touched by the Ghostship are given a 2x strong swig of The Admiral's Rum."
+        }
       ]
     },
     {
@@ -371,10 +819,26 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png",
       "abilities": [
-        {"name": "Lucent Beam", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Eclipse", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Moon Glaives", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Moonlight Shadow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Lucent Beam",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/luna_lucent_beam.png",
+          "description": "Calls a beam of lunar energy down upon an enemy, damaging and briefly stunning them."
+        },
+        {
+          "name": "Moon Glaives",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/luna_moon_glaive.png",
+          "description": "Empowers Luna's glaives, causing her attacks to bounce between enemy units. Deals less damage with each bounce."
+        },
+        {
+          "name": "Lunar Blessing",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/luna_lunar_blessing.png",
+          "description": "Grants attack damage to Luna and nearby allied heroes within 1200 range, with Luna receiving double the attack damage bonuses. At night, Lunar Blessing is global, and Luna is blessed with bonus night vision."
+        },
+        {
+          "name": "Eclipse",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/luna_eclipse.png",
+          "description": "Showers random nearby enemies with strikes from Luna's current level of Lucent Beam. These beams do not stun their targets, and there is a maximum number of times that a single target can be struck. Also turns day into night for a short time."
+        }
       ]
     },
     {
@@ -384,10 +848,26 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png",
       "abilities": [
-        {"name": "Sacred Arrow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Starstorm", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Leap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
-        {"name": "Moonlight Shadow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
+        {
+          "name": "Starstorm",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/mirana_starfall.png",
+          "description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a 675 radius will be struck a second time."
+        },
+        {
+          "name": "Sacred Arrow",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/mirana_arrow.png",
+          "description": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from 0.01 to 2.3 seconds, with bonus damage up to 180 added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits."
+        },
+        {
+          "name": "Leap",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/mirana_leap.png",
+          "description": "Mirana leaps forward into battle, empowering herself with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts 5 seconds."
+        },
+        {
+          "name": "Moonlight Shadow",
+          "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/mirana_invis.png",
+          "description": "Turns Mirana and all allied heroes invisible and grants bonus movement speed. Mirana gains bonus outgoing damage during the duration. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired."
+        }
       ]
     }
   ]
