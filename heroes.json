@@ -7,10 +7,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/anti-mage.png",
       "abilities": [
-        {"name": "Mana Break", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Blink", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Mana Void", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Counterspell", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Mana Break", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Blink", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Mana Void", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Counterspell", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -20,10 +20,10 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/axe.png",
       "abilities": [
-        {"name": "Berserker's Call", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Battle Hunger", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Counter Helix", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Rot", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Berserker's Call", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Battle Hunger", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Counter Helix", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Rot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -33,10 +33,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bane.png",
       "abilities": [
-        {"name": "Brain Sap", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Nightmare", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Fiend's Grip", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Enfeeble", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Brain Sap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Nightmare", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Fiend's Grip", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Enfeeble", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -46,10 +46,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/bloodseeker.png",
       "abilities": [
-        {"name": "Blood Rite", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Rupture", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Thirst", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Blood Bomb", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Blood Rite", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Rupture", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Thirst", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Blood Bomb", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -59,10 +59,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crystal-maiden.png",
       "abilities": [
-        {"name": "Crystal Nova", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Frostbite", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Arcane Aura", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Freezing Field", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Crystal Nova", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Frostbite", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Arcane Aura", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Freezing Field", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -72,10 +72,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/drow-ranger.png",
       "abilities": [
-        {"name": "Marksmanship", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Gust", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Frost Arrows", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Maim", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Marksmanship", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Gust", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Frost Arrows", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Maim", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -85,10 +85,10 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png",
       "abilities": [
-        {"name": "Fissure", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Aftershock", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Enchant Totem", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Echo Slam", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Fissure", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Aftershock", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Enchant Totem", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Echo Slam", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -98,10 +98,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/juggernaut.png",
       "abilities": [
-        {"name": "Blade Fury", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Healing Ward", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Omnislash", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Blade Dance", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Blade Fury", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Healing Ward", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Omnislash", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Blade Dance", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -111,10 +111,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lion.png",
       "abilities": [
-        {"name": "Hex", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Earth Spike", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Finger of Death", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Mana Drain", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Hex", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Earth Spike", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Finger of Death", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Mana Drain", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -124,10 +124,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lich.png",
       "abilities": [
-        {"name": "Frost Armor", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Chain Frost", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Sacrifice", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Death Pulse", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Frost Armor", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Chain Frost", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Sacrifice", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Death Pulse", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -137,10 +137,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/lifestealer.png",
       "abilities": [
-        {"name": "Infest", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Rage", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Feast", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Open Wounds", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Infest", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Rage", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Feast", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Open Wounds", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -150,10 +150,10 @@
       "role": "Mid",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/puck.png",
       "abilities": [
-        {"name": "Waning Rift", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Illusory Orb", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Phase Shift", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Dream Coil", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Waning Rift", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Illusory Orb", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Phase Shift", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Dream Coil", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -163,10 +163,10 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png",
       "abilities": [
-        {"name": "Meat Hook", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Dismember", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Rot", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Flesh Heap", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Meat Hook", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Dismember", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Rot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Flesh Heap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -176,10 +176,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/razor.png",
       "abilities": [
-        {"name": "Static Link", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Plasma Field", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Eye of the Storm", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Unstable Current", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Static Link", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Plasma Field", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Eye of the Storm", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Unstable Current", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -189,10 +189,10 @@
       "role": "Mid",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow-fiend.png",
       "abilities": [
-        {"name": "Presence of the Destroyer", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Shadowraze", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Requiem of the Damned", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Eul's Scepter of Divinity", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Presence of the Destroyer", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Shadowraze", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Requiem of the Damned", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Eul's Scepter of Divinity", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -202,10 +202,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/silencer.png",
       "abilities": [
-        {"name": "Glaives of Wisdom", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Arcane Curse", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Last Word", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Global Silence", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Glaives of Wisdom", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Arcane Curse", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Last Word", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Global Silence", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -215,10 +215,10 @@
       "role": "Mid",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm-spirit.png",
       "abilities": [
-        {"name": "Electric Vortex", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Ball Lightning", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Overload", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Dissipate", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Electric Vortex", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Ball Lightning", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Overload", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Dissipate", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -228,10 +228,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png",
       "abilities": [
-        {"name": "Great Cleave", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "God Strength", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Storm Hammer", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Fury Swipes", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Great Cleave", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "God Strength", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Storm Hammer", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Fury Swipes", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -241,10 +241,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow-demon.png",
       "abilities": [
-        {"name": "Disruption", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Soul Catcher", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Disjunction", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Mental Alacrity", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Disruption", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Soul Catcher", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Disjunction", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Mental Alacrity", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -254,10 +254,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/terrorblade.png",
       "abilities": [
-        {"name": "Metamorphosis", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Conjure Image", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Sunder", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Metamorphosis", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Metamorphosis", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Conjure Image", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Sunder", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Metamorphosis", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -267,10 +267,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windranger.png",
       "abilities": [
-        {"name": "Shackles Shot", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Powershot", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Windrun", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Focus Fire", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Shackles Shot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Powershot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Windrun", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Focus Fire", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -280,10 +280,10 @@
       "role": "Offlane",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/phoenix.png",
       "abilities": [
-        {"name": "Icarus Dive", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Sun Ray", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Supernova", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Fire Spirits", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Icarus Dive", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Sun Ray", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Supernova", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Fire Spirits", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -293,10 +293,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pugna.png",
       "abilities": [
-        {"name": "Nether Ward", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Life Drain", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Decrepify", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Telekinesis", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Nether Ward", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Life Drain", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Decrepify", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Telekinesis", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -306,10 +306,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tiny.png",
       "abilities": [
-        {"name": "Toss", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Grow", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Tree Grab", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Tree Volley", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Toss", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Grow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Tree Grab", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Tree Volley", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -319,10 +319,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/vengeful-spirit.png",
       "abilities": [
-        {"name": "Magic Missile", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Wave of Terror", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Nether Swap", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Mystic Flare", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Magic Missile", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Wave of Terror", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Nether Swap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Mystic Flare", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -332,10 +332,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/witch-doctor.png",
       "abilities": [
-        {"name": "Voodoo Restoration", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Maledict", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Paralyzing Cask", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Death Ward", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Voodoo Restoration", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Maledict", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Paralyzing Cask", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Death Ward", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -345,10 +345,10 @@
       "role": "Mid",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/zeus.png",
       "abilities": [
-        {"name": "Arc Lightning", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Thundergod's Wrath", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Nimbus", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Thunder Drop", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Arc Lightning", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Thundergod's Wrath", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Nimbus", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Thunder Drop", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -358,10 +358,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kunkka.png",
       "abilities": [
-        {"name": "Ghost Ship", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "X Marks the Spot", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Torrent", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Tidebringer", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Ghost Ship", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "X Marks the Spot", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Torrent", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Tidebringer", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -371,10 +371,10 @@
       "role": "Carry",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/luna.png",
       "abilities": [
-        {"name": "Lucent Beam", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Eclipse", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Moon Glaives", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Moonlight Shadow", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Lucent Beam", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Eclipse", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Moon Glaives", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Moonlight Shadow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     },
     {
@@ -384,10 +384,10 @@
       "role": "Support",
       "photo": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png",
       "abilities": [
-        {"name": "Sacred Arrow", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Starstorm", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Leap", "icon": "https://placehold.co/64x64?text=Icon"},
-        {"name": "Moonlight Shadow", "icon": "https://placehold.co/64x64?text=Icon"}
+        {"name": "Sacred Arrow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Starstorm", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Leap", "icon": "https://placehold.co/64x64/333/fff?text=Icon"},
+        {"name": "Moonlight Shadow", "icon": "https://placehold.co/64x64/333/fff?text=Icon"}
       ]
     }
   ]
