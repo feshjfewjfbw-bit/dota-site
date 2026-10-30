@@ -96,3 +96,29 @@ function initCardClicks() {
     card.addEventListener('click', handleCardClick);
   });
 }
+
+// Логика модального окна
+const modal = document.getElementById('hero-modal');
+const closeModal = document.getElementById('close-modal');
+
+// Закрытие окна
+closeModal.onclick = () => modal.style.display = 'none';
+
+// Открытие окна (вызови эту функцию при клике на карточку)
+function openHeroModal(hero) {
+    document.getElementById('modal-img').src = hero.photo;
+    document.getElementById('modal-name').textContent = hero.name;
+    document.getElementById('modal-lore').textContent = hero.lore || 'Описание отсутствует';
+
+    const abilitiesContainer = document.getElementById('modal-abilities');
+    abilitiesContainer.innerHTML = '';
+
+    if (hero.abilities) {
+        hero.abilities.forEach(abil => {
+            const abilDiv = document.createElement('div');
+            abilDiv.innerHTML = `<img src="${abil.icon}" width="50" title="${abil.description}"><br><small>${abil.name}</small>`;
+            abilitiesContainer.appendChild(abilDiv);
+        });
+    }
+    modal.style.display = 'flex';
+}
